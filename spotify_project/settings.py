@@ -82,7 +82,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'spotify_project.wsgi.application'
 
-CORS_ALLOWED_ORIGINS = True
+CORS_ALLOWED_ALL_ORIGINS = True
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
